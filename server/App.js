@@ -82,7 +82,7 @@ const app = express();
 const server = http.createServer(app);
 const io = require('socket.io')(server, {
     cors: {
-        origin: ["http://localhost:3000", "https://6620009281320772403beb7b--resilient-kitsune-0b556c.netlify.app"],
+        origin: ["http://localhost:3000", "https://resilient-kitsune-0b556c.netlify.app/"],
         methods: ["GET", "POST"]
     }
 });
